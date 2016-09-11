@@ -29,9 +29,9 @@ module WiiLabel
     # Minimum Sass number precision required by bootstrap-sass
     ::Sass::Script::Value::Number.precision = [8, ::Sass::Script::Value::Number.precision].max
 
-
-  	# config.generators do |g|
-  	# 	g.orm :mongoid
+    config.generators do |g|
+      g.orm :mongoid
+    end
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.

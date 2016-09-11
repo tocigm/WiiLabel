@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  url: MyString
+  path: MyString
+  checksum: MyString
+  Item: one
+
+two:
+  url: MyString
+  path: MyString
+  checksum: MyString
+  Item: two
