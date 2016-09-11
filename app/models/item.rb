@@ -11,5 +11,6 @@ class Item
   field :source, type: String
   field :page_id, type: String
   field :page_url, type: String
+  field :status, type:String, default: "X"
   embeds_many :images
 end
