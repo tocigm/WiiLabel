@@ -108,6 +108,36 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="false" name="Run test 'items_controller_test': WiiLabel" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="WiiLabel" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) -Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/items_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
@@ -352,6 +382,42 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/globalid-0.3.7/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="haml (vbundled(4.0.7), /Volumes/Data/WORKSPACE/git/bagiks/WiiLabel/.bundle/ruby/2.3.0/gems/haml-4.0.7) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/haml-4.0.7/bin" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/haml-4.0.7/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/haml-4.0.7/bin" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/haml-4.0.7/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="haml-rails (vbundled(0.9.0), /Volumes/Data/WORKSPACE/git/bagiks/WiiLabel/.bundle/ruby/2.3.0/gems/haml-rails-0.9.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/haml-rails-0.9.0/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/haml-rails-0.9.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/haml-rails-0.9.0/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/haml-rails-0.9.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="html2haml (vbundled(2.0.0), /Volumes/Data/WORKSPACE/git/bagiks/WiiLabel/.bundle/ruby/2.3.0/gems/html2haml-2.0.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/html2haml-2.0.0/bin" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/html2haml-2.0.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/html2haml-2.0.0/bin" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/html2haml-2.0.0/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -676,6 +742,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="ruby_parser (vbundled(3.8.2), /Volumes/Data/WORKSPACE/git/bagiks/WiiLabel/.bundle/ruby/2.3.0/gems/ruby_parser-3.8.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/ruby_parser-3.8.2/bin" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/ruby_parser-3.8.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/ruby_parser-3.8.2/bin" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/ruby_parser-3.8.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="sass (vbundled(3.4.22), /Volumes/Data/WORKSPACE/git/bagiks/WiiLabel/.bundle/ruby/2.3.0/gems/sass-3.4.22) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/sass-3.4.22/bin" />
@@ -700,6 +778,16 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/sass-rails-5.0.6/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sexp_processor (vbundled(4.7.0), /Volumes/Data/WORKSPACE/git/bagiks/WiiLabel/.bundle/ruby/2.3.0/gems/sexp_processor-4.7.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/sexp_processor-4.7.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/sexp_processor-4.7.0/lib" />
         </SOURCES>
       </library>
     </orderEntry>

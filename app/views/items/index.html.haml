@@ -1,0 +1,21 @@
+<h1>Items#index</h1>
+<p>Find me in app/views/items/index.html.haml</p>
+
+
+.panel.panel-default
+  .panel-heading
+    %h3.panel-title Items list
+
+  .panel-body
+    %table.table.table-hover
+      %thead
+        %th
+      %tbody
+        - @items.each do |item|
+          %tr
+            %td= item.title
+
+  .panel-footer
+
+
+
