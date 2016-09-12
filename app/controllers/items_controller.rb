@@ -11,9 +11,6 @@ class ItemsController < ApplicationController
   def update
     respond_to do |format|
       if @item.update(status: "yes")
-        # @item.images do |image|
-        #   image.update(status: "x")
-        #   image.save
         len = @item.images.length
         i = 0
         begin
@@ -31,5 +28,9 @@ class ItemsController < ApplicationController
 
   def set_item
     @item = Item.find(params[:id])
+  end
+
+  def item_params
+    params.require(:item).permit(:status, images_attributes: [:status])
   end
 end

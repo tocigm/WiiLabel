@@ -8,11 +8,11 @@
   %thead
 
   %tbody
-    -@item.images.each do |image|
-      %tr
-        %td= image._id
-        %td= image_tag image.url, class: 'img-rounded'
-        %td= image.status
+    -#-@item.images.each do |image|
+    -#  %tr
+    -#    %td= image._id
+    -#    %td= image_tag image.url, class: 'img-rounded'
+    -#    %td= image.status
 
 
     .form-container
@@ -21,5 +21,10 @@
       .form-elements
         = simple_form_for @item, method: :put do |f|
           = f.input :title, label: "title"
-
+          - @item.images.each do |i|
+            = field_set_tag 'Image' do
+              = f.simple_fields_for 'images_attributes[]', i do |fi|
+                =i._id
+                =image_tag i.url, class: 'img-rounded'
+                = fi.input :status
           = f.submit 'Save'
