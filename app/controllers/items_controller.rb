@@ -11,9 +11,15 @@ class ItemsController < ApplicationController
   def update
     respond_to do |format|
       if @item.update(status: "yes")
-        @item.images do |image|
-          image.update(status: "yes")
-        end
+        # @item.images do |image|
+        #   image.update(status: "x")
+        #   image.save
+        len = @item.images.length
+        i = 0
+        begin
+          @item.images[i].update(status: "xxx")
+          i +=1
+        end until i >= len
         format.html{ redirect_to action: 'show'}
       end
     end
