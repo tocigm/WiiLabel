@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+#{@item.title}
+
+
+
+%table.table.table-hover
+  %thead
+
+  %tbody
+    -@item.images.each do |image|
+      %tr
+        %td= image._id
+        %td= image_tag image.url, class: 'img-rounded'
