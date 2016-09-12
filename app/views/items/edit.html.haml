@@ -1,0 +1,25 @@
+
+
+#{@item.title}
+
+
+
+%table.table.table-hover
+  %thead
+
+  %tbody
+    -@item.images.each do |image|
+      %tr
+        %td= image._id
+        %td= image_tag image.url, class: 'img-rounded'
+        %td= image.status
+
+
+    .form-container
+      .page-header
+        %h3 Image
+      .form-elements
+        = simple_form_for @item, method: :put do |f|
+          = f.input :title, label: "title"
+
+          = f.submit 'Save'
