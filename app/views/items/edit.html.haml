@@ -1,9 +1,4 @@
 
-
-#{@item.title}
-
-
-
 %table.table.table-hover
   %thead
 
@@ -20,11 +15,19 @@
         %h3 Image
       .form-elements
         = simple_form_for @item, method: :put do |f|
-          = f.input :title, label: "title"
+          = @item.title
           - @item.images.each do |i|
-            = field_set_tag 'Image' do
+            = field_set_tag i._id do
               = f.simple_fields_for 'images_attributes[]', i do |fi|
-                =i._id
                 =image_tag i.url, class: 'img-rounded'
-                = fi.input :status
+                = fi.collection_radio_buttons :status, [[1, 'Ok'], [2, 'Archive'], [3,'Delete']], :first, :last do |b|
+                  = b.label { b.radio_button + b.text }
           = f.submit 'Save'
+
+
+-#form_for @user do |f|
+-#  f.collection_radio_buttons :rating, [[1, 'Bad'] ,[2, 'Ok'], [3, 'Great']],
+-#  :first, :last, { item_wrapper_tag: false } do |b|
+-#  b.radio_button + b.label(:class => "collection_radio_buttons icon-star")
+-#  end
+-#end
