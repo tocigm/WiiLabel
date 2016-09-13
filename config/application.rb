@@ -32,6 +32,10 @@ module WiiLabel
     config.generators do |g|
       g.orm :mongoid
     end
+
+
+    # config.logger = Logger.new(STDOUT)
+    # config.logger = Log4r::Logger.new("Application Log")
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.

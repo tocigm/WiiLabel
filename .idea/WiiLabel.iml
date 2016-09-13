@@ -280,6 +280,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="coderay (vbundled(1.1.1), /Volumes/Data/WORKSPACE/git/bagiks/WiiLabel/.bundle/ruby/2.3.0/gems/coderay-1.1.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/coderay-1.1.1/bin" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/coderay-1.1.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/coderay-1.1.1/bin" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/coderay-1.1.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="coffee-rails (vbundled(4.2.1), /Volumes/Data/WORKSPACE/git/bagiks/WiiLabel/.bundle/ruby/2.3.0/gems/coffee-rails-4.2.1) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/coffee-rails-4.2.1/lib" />
@@ -620,6 +632,40 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="pry (vbundled(0.10.4), /Volumes/Data/WORKSPACE/git/bagiks/WiiLabel/.bundle/ruby/2.3.0/gems/pry-0.10.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/pry-0.10.4/bin" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/pry-0.10.4/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/pry-0.10.4/bin" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/pry-0.10.4/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pry-byebug (vbundled(3.4.0), /Volumes/Data/WORKSPACE/git/bagiks/WiiLabel/.bundle/ruby/2.3.0/gems/pry-byebug-3.4.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/pry-byebug-3.4.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/pry-byebug-3.4.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pry-rails (vbundled(0.3.4), /Volumes/Data/WORKSPACE/git/bagiks/WiiLabel/.bundle/ruby/2.3.0/gems/pry-rails-0.3.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/pry-rails-0.3.4/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/pry-rails-0.3.4/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/pry-rails-0.3.4/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/pry-rails-0.3.4/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="puma (vbundled(3.6.0), /Volumes/Data/WORKSPACE/git/bagiks/WiiLabel/.bundle/ruby/2.3.0/gems/puma-3.6.0) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/puma-3.6.0/bin" />
@@ -798,6 +844,16 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/simple_form-3.3.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slop (vbundled(3.6.0), /Volumes/Data/WORKSPACE/git/bagiks/WiiLabel/.bundle/ruby/2.3.0/gems/slop-3.6.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/slop-3.6.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/slop-3.6.0/lib" />
         </SOURCES>
       </library>
     </orderEntry>

@@ -9,14 +9,13 @@ class ItemsController < ApplicationController
   end
 
   def update
+    # logger.info params
+    # binding.pry
+    # puts params
     respond_to do |format|
-      if @item.update(status: "yes")
-        len = @item.images.length
-        i = 0
-        begin
-          @item.images[i].update(status: "xxx")
-          i +=1
-        end until i >= len
+
+      if @item.update(status: "edited")
+        params[:item][:images_attributes].each_pair{|k, v| @item.images.find(k).update(status: v['status'])}
         format.html{ redirect_to action: 'show'}
       end
     end
