@@ -2,6 +2,14 @@ class ItemsController < ApplicationController
   before_action :set_item, except: [:index]
   def index
     @items = Item.all
+
+    if !params[:category].blank?
+      @items = @items.where(category: params[:category])
+    end
+
+    if !params[:status].blank?
+      @items = @items.where(status: params[:status])
+    end
   end
 
   def show
