@@ -6,6 +6,8 @@
   .panel-heading
     %h3.panel-title Items list
 
+    =link_to "All", items_path(params: {category: params[:category]})
+    =link_to "Edited", items_path(params: {status: 'edited', category: params[:category]})
   .panel-body
     %table.table.table-hover
       %thead
