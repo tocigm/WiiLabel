@@ -11,7 +11,7 @@ class Item
   field :source, type: String
   field :page_id, type: String
   field :page_url, type: String
-  field :status, type:String, default: "New"
+  field :status, type:String, default: "unchecked"
   embeds_many :images
 
   accepts_nested_attributes_for :images,  :autosave => true

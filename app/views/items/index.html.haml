@@ -8,6 +8,7 @@
 
     =link_to "All", items_path(params: {category: params[:category]})
     =link_to "checked", items_path(params: {status: 'checked', category: params[:category]})
+    =link_to "unchecked", items_path(params: {status: 'unchecked', category: params[:category]})
     =paginate @items
   .panel-body
     %table.table.table-hover
@@ -17,9 +18,9 @@
         - @items.each do |item|
           %tr
             %td= item.title
-            %td= item.status
+            %td= render_status item
             %td= link_to 'Show', item
-            %td= link_to 'Edit', edit_item_path(item)
+            %td= link_to 'Edit', edit_item_path(item, params: {status: params[:status], category: params[:category]})
             %td= link_to 'Delete', item, method: :delete, data: {confirm: "sure?"}
 
   .panel-footer

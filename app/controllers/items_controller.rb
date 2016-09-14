@@ -59,16 +59,16 @@ class ItemsController < ApplicationController
     # binding.pry
     # puts params
     respond_to do |format|
-
+      # binding.pry
       if @item.update(status: "checked")
         params[:item][:images_attributes].each_pair{|k, v| @item.images.find(k).update(status: v['status'])}
-        format.html{ redirect_to action: 'show'}
+        format.html{ redirect_to action: 'next_item'}
       end
     end
   end
 
   def edit
-
+    @item.save
   end
 
   def set_item
@@ -78,4 +78,12 @@ class ItemsController < ApplicationController
   def item_params
     params.require(:item).permit(:status, images_attributes: [:status])
   end
+
+  # def render_status
+  #   if @item.status == 'unchecked'
+  #     render :partial => '-'
+  #   else
+  #     render :partial => @item.status
+  #   end
+  # end
 end
