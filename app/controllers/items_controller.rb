@@ -2,10 +2,7 @@ class ItemsController < ApplicationController
   before_action :set_item, except: [:index]
   def index
 
-    @items = Item.all
-
-    @items = get_items_by_parameters(params) || @items
-
+    @items = get_items_by_parameters(params)
 
     if !params[:page].blank?
       @items = @items.page(params[:page])
@@ -15,17 +12,22 @@ class ItemsController < ApplicationController
   end
 
   def get_items_by_parameters(params)
+
     if !params[:category].blank?
-      @items = @items.where(category: params[:category])
+      @items = Item.where(category: params[:category])
+    else
+      @items = Item.all
     end
 
     if !params[:status].blank?
       @items = @items.where(status: params[:status])
     end
+
+    @items.order_by(_id: 'asc')
   end
 
   def next_item
-    @items = get_items_by_parameters(params) || Item.all
+    @items = get_items_by_parameters(params)
     @item = @items.where('_id':{'$gt': params[:id]}).order_by(_id: 'asc').limit(1).first
     # respond_to do |format|
     #   format.html {render :edit}
@@ -39,7 +41,7 @@ class ItemsController < ApplicationController
   end
 
   def prev_item
-    @items = get_items_by_parameters(params) || Item.all
+    @items = get_items_by_parameters(params)
     @item = @items.where('_id':{'$lt': params[:id]}).order_by(_id: 'desc').limit(1).first
     if !@item.blank?
       render :edit
