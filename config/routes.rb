@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   resources :items
 
+  root to: "items#index"
+
   get 'items/:id/next', to: "items#next_item" , as: 'next_item'
   get 'items/:id/prev', to: "items#prev_item" , as: 'prev_item'
 
