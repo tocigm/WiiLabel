@@ -4,6 +4,17 @@ class ItemsController < ApplicationController
 
     @items = Item.all
 
+    @items = get_items_by_parameters(params) || @items
+
+
+    if !params[:page].blank?
+      @items = @items.page(params[:page])
+    else
+      @items = @items.page(1)
+    end
+  end
+
+  def get_items_by_parameters(params)
     if !params[:category].blank?
       @items = @items.where(category: params[:category])
     end
@@ -11,12 +22,17 @@ class ItemsController < ApplicationController
     if !params[:status].blank?
       @items = @items.where(status: params[:status])
     end
+  end
 
-    if !params[:page].blank?
-      @items = @items.page(params[:page])
-    else
-      @items = @items.page(1)
-    end
+  def next_item
+    @items = get_items_by_parameters(params) || Item.all
+    @item = @items.where('_id':{'$gt': params[:id]}).order_by(_id: 'asc').limit(1).to_a
+    redirect_to @item
+  end
+
+  def prev_item
+    @items = get_items_by_parameters(params) || Item.all
+    @item = @items.where('_id':{'$lt': params[:id]}).order_by(_id: 'desc').limit(1).to_a
   end
 
   def show

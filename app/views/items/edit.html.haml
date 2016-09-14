@@ -8,7 +8,7 @@
     -#    %td= image._id
     -#    %td= image_tag image.url, class: 'img-rounded'
     -#    %td= image.status
-
+    = button_to 'Next', next_item_path(@item), method: :get
 
     .form-container
       .page-header
