@@ -26,13 +26,26 @@ class ItemsController < ApplicationController
 
   def next_item
     @items = get_items_by_parameters(params) || Item.all
-    @item = @items.where('_id':{'$gt': params[:id]}).order_by(_id: 'asc').limit(1).to_a
-    redirect_to @item
+    @item = @items.where('_id':{'$gt': params[:id]}).order_by(_id: 'asc').limit(1).first
+    # respond_to do |format|
+    #   format.html {render :edit}
+    # end
+    if !@item.blank?
+      render :edit
+    else
+      redirect_back fallback_location: :index
+    end
+
   end
 
   def prev_item
     @items = get_items_by_parameters(params) || Item.all
-    @item = @items.where('_id':{'$lt': params[:id]}).order_by(_id: 'desc').limit(1).to_a
+    @item = @items.where('_id':{'$lt': params[:id]}).order_by(_id: 'desc').limit(1).first
+    if !@item.blank?
+      render :edit
+    else
+      redirect_back fallback_location: :index
+    end
   end
 
   def show
