@@ -1,6 +1,7 @@
 class ItemsController < ApplicationController
   before_action :set_item, except: [:index]
   def index
+
     @items = Item.all
 
     if !params[:category].blank?
@@ -9,6 +10,12 @@ class ItemsController < ApplicationController
 
     if !params[:status].blank?
       @items = @items.where(status: params[:status])
+    end
+
+    if !params[:page].blank?
+      @items = @items.page(params[:page])
+    else
+      @items = @items.page(1)
     end
   end
 
@@ -22,7 +29,7 @@ class ItemsController < ApplicationController
     # puts params
     respond_to do |format|
 
-      if @item.update(status: "edited")
+      if @item.update(status: "checked")
         params[:item][:images_attributes].each_pair{|k, v| @item.images.find(k).update(status: v['status'])}
         format.html{ redirect_to action: 'show'}
       end

@@ -470,6 +470,22 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="kaminari (vbundled(0.17.0), /Volumes/Data/WORKSPACE/git/bagiks/WiiLabel/.bundle/ruby/2.3.0/gems/kaminari-0.17.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/kaminari-0.17.0/app" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/kaminari-0.17.0/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/kaminari-0.17.0/config" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/kaminari-0.17.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/kaminari-0.17.0/app" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/kaminari-0.17.0/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/kaminari-0.17.0/config" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/kaminari-0.17.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="listen (vbundled(3.0.8), /Volumes/Data/WORKSPACE/git/bagiks/WiiLabel/.bundle/ruby/2.3.0/gems/listen-3.0.8) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/listen-3.0.8/bin" />

@@ -39,6 +39,11 @@ gem 'haml-rails', '>= 0.3.4', :group => :development
 
 gem 'simple_form'
 
+#pagination
+# gem 'will_paginate', '~> 3.1.0'
+# gem 'will_paginate_mongoid'
+gem 'kaminari'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
