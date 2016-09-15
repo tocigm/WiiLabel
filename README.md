@@ -83,3 +83,15 @@ Things you may want to cover:
     ]
 }
 ```
+
+```
+When testing locally your production environment, you have to compile the assets locally. Simply run the command below:
+
+RAILS_ENV=production bundle exec rake assets:precompile
+It will generate all the assets under public/assets.
+
+Next, you have to tell Rails to serve the assets itself. Server software (eg. Nginx or Apache) do it for you on environments like Heroku, but locally you should let Rails do it. Change this in your production.rb:
+
+config.serve_static_assets = true
+But make sure you set it back to false before pushing your code to production!
+```
