@@ -26,7 +26,13 @@ class ItemsController < ApplicationController
     end
 
     if !params[:status].blank?
-      @items = @items.where(status: params[:status])
+      if params[:status] == 'checked'
+        @items = @items.where(status: 'checked')
+      else
+        @items = @items.where(:status.nin => ['checked'])
+      end
+
+
     end
 
     @items.order_by(_id: 'asc')
