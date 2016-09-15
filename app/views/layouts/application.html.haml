@@ -23,7 +23,8 @@
     %h2 Menu
     %ul
       - @menu = menu
-      - @menu.each do |m|
-        %li= link_to m[:name], items_path(params: {category: m[:name], status: params[:status]})
+      = select_tag 'category_select', options_from_collection_for_select(@menu, :id, :name) ,:prompt => "Category..."
+      -#- @menu.each do |m|
+      -#  %li= link_to m[:name], items_path(params: {category: m[:name], status: params[:status]})
 
     = yield

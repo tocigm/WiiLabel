@@ -14,9 +14,13 @@ class ItemsController < ApplicationController
   end
 
   def get_items_by_parameters(params)
-
+    # binding.pry
     if !params[:category].blank?
-      @items = Item.where(category: params[:category])
+      @category = Category.find(params[:category])
+      if !@category.nil?
+        @items = Item.where(category: @category[:name])
+      end
+
     else
       @items = Item.all
     end
@@ -58,7 +62,7 @@ class ItemsController < ApplicationController
 
   def update
     # logger.info params
-    binding.pry
+    # binding.pry
     # puts params
     respond_to do |format|
       # binding.pry
