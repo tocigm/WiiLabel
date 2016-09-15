@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
+  get 'admins/index'
+
   resources :items
+  resources :admins
 
   root to: "items#index"
 
