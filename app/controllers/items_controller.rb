@@ -58,7 +58,7 @@ class ItemsController < ApplicationController
 
   def update
     # logger.info params
-    # binding.pry
+    binding.pry
     # puts params
     respond_to do |format|
       # binding.pry
