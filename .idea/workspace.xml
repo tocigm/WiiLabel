@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b4ed7d97-5d45-49d0-9cff-a62dd0417fcc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/admins_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/admins_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admins/index.html.haml" afterPath="$PROJECT_DIR$/app/views/admins/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/items/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/items/edit.html.haml" />
     </list>
     <ignored path="WiiLabel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,7 +55,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/admins/index.html.haml">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="120">
@@ -69,11 +65,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="edit.html.haml" pinned="false" current-in-tab="false">
+          <file leaf-file-name="edit.html.haml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/items/edit.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+                <state relative-caret-position="285">
+                  <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -153,7 +149,6 @@
         <option value="$PROJECT_DIR$/config/initializers/will_pagination.rb" />
         <option value="$PROJECT_DIR$/.bundle/ruby/2.3.0/gems/kaminari-0.17.0/lib/kaminari/helpers/action_view_extension.rb" />
         <option value="$PROJECT_DIR$/config/initializers/kaminari_config.rb" />
-        <option value="$PROJECT_DIR$/app/views/items/edit.html.haml" />
         <option value="$PROJECT_DIR$/app/models/item.rb" />
         <option value="$PROJECT_DIR$/app/helpers/items_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/items/index.html.haml" />
@@ -170,6 +165,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/admins_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/admins/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/items/edit.html.haml" />
       </list>
     </option>
   </component>
@@ -644,7 +640,7 @@
       <workItem from="1473882597461" duration="8451000" />
       <workItem from="1473901487748" duration="436000" />
       <workItem from="1473902039121" duration="26000" />
-      <workItem from="1473944528485" duration="6753000" />
+      <workItem from="1473944528485" duration="7000000" />
     </task>
     <servers />
   </component>
@@ -657,7 +653,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69758000" />
+    <option name="totallyTimeSpent" value="70005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1040,14 +1036,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/items/edit.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1092,6 +1080,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/items/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
         </state>
       </provider>

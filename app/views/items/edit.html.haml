@@ -17,6 +17,9 @@
       .form-elements
         = simple_form_for @item, method: :put do |f|
           = @item.title
+          = @item.category
+          = @item.tags
+          = @item.description
           - @item.images.each do |i|
             = field_set_tag i._id do
               = f.simple_fields_for 'images_attributes[]', i do |fi|
