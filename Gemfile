@@ -31,11 +31,11 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 # gem 'log4r'
-gem 'pry-rails', :group => :development
+gem 'pry-rails'
 gem 'pry-byebug'
 
 #haml
-gem 'haml-rails', '>= 0.3.4', :group => :development
+gem 'haml-rails', '>= 0.3.4'
 
 gem 'simple_form'
 

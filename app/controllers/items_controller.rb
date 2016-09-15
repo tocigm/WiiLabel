@@ -9,6 +9,8 @@ class ItemsController < ApplicationController
     else
       @items = @items.page(1)
     end
+
+    # render @items
   end
 
   def get_items_by_parameters(params)
