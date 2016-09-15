@@ -24,5 +24,6 @@
     %ul
       - @menu = menu
       - @menu.each do |m|
-        %li= link_to m, items_path(params: {category: m, status: params[:status]})
+        %li= link_to m[:name], items_path(params: {category: m[:name], status: params[:status]})
+
     = yield

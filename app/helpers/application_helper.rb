@@ -1,5 +1,5 @@
 module ApplicationHelper
   def menu
-    @menu =  Item.only(:category).distinct(:category)
+    @menu =  Category.all
   end
 end
