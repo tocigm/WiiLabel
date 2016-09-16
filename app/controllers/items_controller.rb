@@ -46,7 +46,7 @@ class ItemsController < ApplicationController
     #   format.html {render :edit}
     # end
     if !@item.blank?
-      render :edit
+      redirect_to proc { edit_item_path(@item, params: {category: params[:category], status: params[:status]})}
     else
       redirect_back fallback_location: :index
     end
@@ -57,7 +57,7 @@ class ItemsController < ApplicationController
     @items = get_items_by_parameters(params)
     @item = @items.where('_id':{'$lt': params[:id]}).order_by(_id: 'desc').limit(1).first
     if !@item.blank?
-      render :edit
+      redirect_to proc { edit_item_path(@item, params: {category: params[:category], status: params[:status]})}
     else
       redirect_back fallback_location: :index
     end
@@ -93,6 +93,15 @@ class ItemsController < ApplicationController
 
   def edit
     @item.save
+
+    i = 0
+    len = @item.images.count
+    until i < len
+      @item.images[i].save
+      puts item.images[i].id
+      i+=1
+    end
+
   end
 
   def set_item

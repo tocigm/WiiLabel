@@ -23,7 +23,7 @@
           - @item.images.each do |i|
             = field_set_tag i._id do
               = f.simple_fields_for 'images_attributes[]', i do |fi|
-                =image_tag i.url, class: 'img-rounded'
+                =image_tag i.url, class: 'img-rounded item_img'
                 = fi.collection_radio_buttons :status, [[1, 'Ok'], [2, 'Archive'], [3,'Delete']], :first, :last do |b|
                   = b.label { b.radio_button + b.text }
           = f.submit 'Save', class: 'btn btn-success'

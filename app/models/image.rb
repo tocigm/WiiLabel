@@ -4,6 +4,6 @@ class Image
   field :url, type: String
   field :path, type: String
   field :checksum, type: String
-  field :status, type:String, default: 'Ok'
+  field :status, type:String, default: '1'
   embedded_in :item
 end
