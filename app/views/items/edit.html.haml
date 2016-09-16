@@ -26,7 +26,8 @@
                 =image_tag i.url, class: 'img-rounded'
                 = fi.collection_radio_buttons :status, [[1, 'Ok'], [2, 'Archive'], [3,'Delete']], :first, :last do |b|
                   = b.label { b.radio_button + b.text }
-          = f.submit 'Save'
+          = f.submit 'Save', class: 'btn btn-success'
+          = link_to 'Delete', @item, method: :delete , data: { confirm: 'Are u sure?'},  class: 'btn btn-danger'
 
 
 -#form_for @user do |f|

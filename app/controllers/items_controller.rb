@@ -29,7 +29,7 @@ class ItemsController < ApplicationController
       if params[:status] == 'checked'
         @items = @items.where(status: 'checked')
       else
-        @items = @items.where(:status.nin => ['checked'])
+        @items = @items.where(:status.nin => ['checked', 'deleted'])
       end
 
 
@@ -39,6 +39,7 @@ class ItemsController < ApplicationController
   end
 
   def next_item
+    # binding.pry
     @items = get_items_by_parameters(params)
     @item = @items.where('_id':{'$gt': params[:id]}).order_by(_id: 'asc').limit(1).first
     # respond_to do |format|
@@ -72,8 +73,19 @@ class ItemsController < ApplicationController
     # puts params
     respond_to do |format|
       # binding.pry
-      if @item.update(status: "checked")
+      if !@item.images.blank?
         params[:item][:images_attributes].each_pair{|k, v| @item.images.find(k).update(status: v['status'])}
+      end
+
+      if @item.update(status: "checked")
+        format.html{ redirect_to action: 'next_item'}
+      end
+    end
+  end
+
+  def destroy
+    respond_to do |format|
+      if @item.update(status: "deleted")
         format.html{ redirect_to action: 'next_item'}
       end
     end
