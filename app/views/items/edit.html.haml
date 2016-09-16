@@ -16,7 +16,7 @@
         %h3 Image
       .form-elements
         = simple_form_for @item, method: :put do |f|
-          = @item.title
+          %h3= @item.title.to_s.remove /[\[\]\"\"]/
           = @item.category
           = @item.tags
           = @item.description
