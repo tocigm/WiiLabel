@@ -76,9 +76,9 @@ class ItemsController < ApplicationController
       if !@item.images.blank?
         params[:item][:images_attributes].each_pair{|k, v| @item.images.find(k).update(status: v['status'])}
       end
-
+      @category = Category.find_by(name: params[:item][:category].to_s.remove(/[\[\]\"\"]/))
       if @item.update(status: "checked")
-        format.html{ redirect_to action: 'next_item'}
+        format.html{ redirect_to proc { edit_item_path(@item, params: {category: @category.id, status: params[:status]})}}
       end
     end
   end
@@ -86,7 +86,7 @@ class ItemsController < ApplicationController
   def destroy
     respond_to do |format|
       if @item.update(status: "deleted")
-        format.html{ redirect_to action: 'next_item'}
+        format.html{ redirect_to proc { edit_item_path(@item, params: {category: params[:category], status: params[:status]})}}
       end
     end
   end
