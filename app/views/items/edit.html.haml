@@ -8,8 +8,8 @@
     -#    %td= image._id
     -#    %td= image_tag image.url, class: 'img-rounded'
     -#    %td= image.status
-    = link_to 'Previous', prev_item_path(@item,  params: params)
-    = link_to 'Next', next_item_path(@item, params: params)
+    = link_to 'Previous', prev_item_path(@item,  params: params), class:'btn btn-primary'
+    = link_to 'Next', next_item_path(@item, params: params), class: 'btn btn-primary'
 
     .form-container
       .page-header
