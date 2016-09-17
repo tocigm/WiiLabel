@@ -13,14 +13,21 @@
 
     .form-container
       .page-header
-        %h3 Image
       .form-elements
         = simple_form_for @item, method: :put do |f|
           %h3= @item.title.to_s.remove /[\[\]\"\"]/
-          = @item.status
-          = @item.category
-          = @item.tags
-          = @item.description
+          .text-danger
+            %strong Status:
+            =@item.status
+          .text-info
+            %strong Category:
+            = @item.category.to_s.remove /[\[\]\"\"]/
+          .text-info
+            %strong Tag:
+            = @item.tags.to_s.remove /[\[\]\"\"]/
+          .text-info
+            %strong Description:
+            =@item.description.to_s.remove /[\[\]\"\"]/
           - @item.images.each do |i|
             = field_set_tag i._id do
               = f.simple_fields_for 'images_attributes[]', i do |fi|
