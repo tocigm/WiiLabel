@@ -22,7 +22,7 @@
             %td= item.title.to_s.remove /[\[\]\"\"]/
             %td= item.images.count
             %td= render_status item
-            %td= link_to 'Show', item
+            -#%td= link_to 'Show', item
             %td= link_to 'Edit', edit_item_path(item, params: {status: params[:status], category: params[:category]})
             %td= link_to 'Delete', item, method: :delete, data: {confirm: "sure?"}
 

@@ -2,96 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ed7d97-5d45-49d0-9cff-a62dd0417fcc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-0097acefecc127f678fdee3b4341e42c9b34373a4c65c951fe06fd8cd37810da.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-019c3508a0a62f4efe7f3eb93d6c6e02c9cfe55f9749115d79c86a95d54d3423.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-09f643fc8e697ef7b36eead6f9e18843e9589589f1b624ce6fa8eae844f7e65f.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-0b9c26703253660bb26d416320560ea1b4dd7611c9bfe3878bcbe63f77a4d046.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-0c80a6fc79d73bbf7cf21b701ac1a94fe36007616b807075d0bac222e67a8bc4.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-0f3a8bb6d9440c7e34edd4027ead4a606ce69e18a771c9901bbdd93b26abe590.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-21db8e7fb3ac228afa541775c6421016dc21d674cf265065312877c9c1c122ce.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-2d21fc07f0da3a40748e09c9b3f42b2c37b2e4e92e82127ffc0f187fcc07041d.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-4800f4966225d5d411a768e59ba4241c58c2c4c3a9f2ea80cd49c449a73ab97f.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-4d7ca55c9664819929ca947f56532c1d589ea04bda1d65817842be809441cfa7.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-4e8356ac5a89c7adb1373c91e55489674e01c33ebc42c03ff266867b81699968.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-57989dd633eb6943abcd65d1cbe34857fcbc021eb6f4c3b8a121de0722847cdb.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-5df9dfe962fdf98379b2e0de854988b8dce8179439eb23526afb583cd1c1bba8.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-5ea97c265fe646f87de2ab0e2d6f682d3c1ac9944bf14952caa56dfd32db0384.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-5ecb54e82e5b276e315d9d10fb533333576324d2be11314209e7f0402e9b1d31.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-60c856014ac1d60ffdef37b8b179afa795562a555e6eca91b7358fc67707031e.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-6e523563ae3672888a323dd04781d58b97284bd3e09a66e3ebf6510a4b5b0de0.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-7106a0c43e7698ebb1763282fc123120d956bb6860ea428a2d325653500d9737.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-730c9f5cde6415c3d72e3d28f27b7f25fd0d36308398c275791e794bb972cdda.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-7af67db28b45684ae0509cba3b96869bf5b501c32988159e3de468cf88b156e3.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-7befbcaddf691bbdba35b539e5dc3442b02947ee30888aaaf53ac5b5e8eb5e4a.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-8320eabe0fb0c7b87827d4321412c657cc03fae841b9fe452022d38126859ff6.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-88ea32322946073bd3c7b761a271eefd0086e485a2db4c474bb04df74b97be86.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-8c3231037a6a5f1efa0b083d6ad112ced3d6ade06dc9c78d22613769fe22e471.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-9415ba553da20308666246bc5feeaaf7f29db44e9ed49a1d28ce1085b63482f7.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-9df6883c4e482356f6c80040cfcc400ce8ea7ab7e83fdfb34a28ff40ad663bce.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-a1f1fe594087d9d126164fdeb12eeacc55869717315edbb21883454c07286888.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-a9326e6ec19202c968813d45321638bfdee8c58c7cab46c14fad275a0e4e36c7.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-ad673bba932f1dfb49a4ee29b2ae238a55754941288b4be11365ca1c303e4e58.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-b4e41ee21d7ce9b45bb78cb3ed7a3fb0436b07cdc6d529a41f65338fa3ad8153.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-b67490151fd66baf1b63ab5736e1c716f2be4209a57a6fa97f5b0d40d4e00873.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-b7bd899da77875716f85323348a23d88a8e7b4be4be43f7e64285f5fbce3206e.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-b96a1f71bdd7546f73706e46f878419491c0e72948a7ba7613c8ca02b0058734.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-c01b4c128ec7f4a7203755e5de080c9673d3c8b486097a87ed833be535fe7e5f.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-c10052b7bd04fac65c34f83a31d235c2ae4b04673ebc38b34f859946bccec395.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-c4c9a32c970098549450b33cbe1d9ff6b2cca871bbacc147ac257b6e19ad400c.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-c555d8316b793e79a08b6bc9de6fa932f4a2228c152adac134734c622ba288d0.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-d3e8a5f83489bc41432cfc871198a55bf211993b0c915492525dd14a19a39cc4.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-e4bb019637cce894bed2de1b1be0d791d2bff8934cd351afe91d482c568b538b.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f105f6021d2d12fb56efebae1e94f4fd97734f9610c8d0c24cd998879b87f93e.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f1744f4d109f814f4de041abe1ee3d8cd54ba12dcac6a0334a1ccbcdc974e617.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f611e3eb2de0811271480698385959084b517bec43e72da56a03182b7a6a6dd8.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f8dbc7057690789167787a7da67db1af12f74267566386b591060c508b82b351.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-ff69704b065e7267e8e2b984053ac2f31fcc297a1e6cfa4501374f9e31515b31.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-0097acefecc127f678fdee3b4341e42c9b34373a4c65c951fe06fd8cd37810da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-019c3508a0a62f4efe7f3eb93d6c6e02c9cfe55f9749115d79c86a95d54d3423.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-09f643fc8e697ef7b36eead6f9e18843e9589589f1b624ce6fa8eae844f7e65f.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-0b9c26703253660bb26d416320560ea1b4dd7611c9bfe3878bcbe63f77a4d046.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-0c80a6fc79d73bbf7cf21b701ac1a94fe36007616b807075d0bac222e67a8bc4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-0f3a8bb6d9440c7e34edd4027ead4a606ce69e18a771c9901bbdd93b26abe590.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-21db8e7fb3ac228afa541775c6421016dc21d674cf265065312877c9c1c122ce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-2d21fc07f0da3a40748e09c9b3f42b2c37b2e4e92e82127ffc0f187fcc07041d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-4800f4966225d5d411a768e59ba4241c58c2c4c3a9f2ea80cd49c449a73ab97f.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-4d7ca55c9664819929ca947f56532c1d589ea04bda1d65817842be809441cfa7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-4e8356ac5a89c7adb1373c91e55489674e01c33ebc42c03ff266867b81699968.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-57989dd633eb6943abcd65d1cbe34857fcbc021eb6f4c3b8a121de0722847cdb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-5df9dfe962fdf98379b2e0de854988b8dce8179439eb23526afb583cd1c1bba8.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-5ea97c265fe646f87de2ab0e2d6f682d3c1ac9944bf14952caa56dfd32db0384.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-5ecb54e82e5b276e315d9d10fb533333576324d2be11314209e7f0402e9b1d31.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-60c856014ac1d60ffdef37b8b179afa795562a555e6eca91b7358fc67707031e.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-6e523563ae3672888a323dd04781d58b97284bd3e09a66e3ebf6510a4b5b0de0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-7106a0c43e7698ebb1763282fc123120d956bb6860ea428a2d325653500d9737.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-730c9f5cde6415c3d72e3d28f27b7f25fd0d36308398c275791e794bb972cdda.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-7af67db28b45684ae0509cba3b96869bf5b501c32988159e3de468cf88b156e3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-7befbcaddf691bbdba35b539e5dc3442b02947ee30888aaaf53ac5b5e8eb5e4a.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-8320eabe0fb0c7b87827d4321412c657cc03fae841b9fe452022d38126859ff6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-88ea32322946073bd3c7b761a271eefd0086e485a2db4c474bb04df74b97be86.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-8c3231037a6a5f1efa0b083d6ad112ced3d6ade06dc9c78d22613769fe22e471.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-9415ba553da20308666246bc5feeaaf7f29db44e9ed49a1d28ce1085b63482f7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-9df6883c4e482356f6c80040cfcc400ce8ea7ab7e83fdfb34a28ff40ad663bce.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-a1f1fe594087d9d126164fdeb12eeacc55869717315edbb21883454c07286888.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-a9326e6ec19202c968813d45321638bfdee8c58c7cab46c14fad275a0e4e36c7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-ad673bba932f1dfb49a4ee29b2ae238a55754941288b4be11365ca1c303e4e58.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-b4e41ee21d7ce9b45bb78cb3ed7a3fb0436b07cdc6d529a41f65338fa3ad8153.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-b67490151fd66baf1b63ab5736e1c716f2be4209a57a6fa97f5b0d40d4e00873.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-b7bd899da77875716f85323348a23d88a8e7b4be4be43f7e64285f5fbce3206e.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-b96a1f71bdd7546f73706e46f878419491c0e72948a7ba7613c8ca02b0058734.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-c01b4c128ec7f4a7203755e5de080c9673d3c8b486097a87ed833be535fe7e5f.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-c10052b7bd04fac65c34f83a31d235c2ae4b04673ebc38b34f859946bccec395.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-c4c9a32c970098549450b33cbe1d9ff6b2cca871bbacc147ac257b6e19ad400c.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-c555d8316b793e79a08b6bc9de6fa932f4a2228c152adac134734c622ba288d0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-d3e8a5f83489bc41432cfc871198a55bf211993b0c915492525dd14a19a39cc4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-e4bb019637cce894bed2de1b1be0d791d2bff8934cd351afe91d482c568b538b.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f105f6021d2d12fb56efebae1e94f4fd97734f9610c8d0c24cd998879b87f93e.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f1744f4d109f814f4de041abe1ee3d8cd54ba12dcac6a0334a1ccbcdc974e617.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f611e3eb2de0811271480698385959084b517bec43e72da56a03182b7a6a6dd8.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f8dbc7057690789167787a7da67db1af12f74267566386b591060c508b82b351.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-ff69704b065e7267e8e2b984053ac2f31fcc297a1e6cfa4501374f9e31515b31.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/items_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/items_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/items/index.html.haml" afterPath="$PROJECT_DIR$/app/views/items/index.html.haml" />
     </list>
     <ignored path="WiiLabel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -177,17 +89,17 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/items/index.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="291">
-                  <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
+                <state relative-caret-position="276">
+                  <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="items_controller.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="items_controller.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="270">
@@ -210,8 +122,8 @@
           <file leaf-file-name="production.log" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/log/production.log">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="58485">
-                  <caret line="4624" column="0" selection-start-line="4624" selection-start-column="0" selection-end-line="4624" selection-end-column="0" />
+                <state relative-caret-position="75045">
+                  <caret line="5003" column="0" selection-start-line="5003" selection-start-column="0" selection-end-line="5003" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -266,8 +178,8 @@
         <option value="$PROJECT_DIR$/log/production.log" />
         <option value="$PROJECT_DIR$/app/views/items/edit.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/items/index.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/items_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/items/index.html.haml" />
       </list>
     </option>
   </component>
@@ -314,6 +226,7 @@
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -565,7 +478,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -849,7 +761,8 @@
       <workItem from="1473985168941" duration="461000" />
       <workItem from="1473985768053" duration="1778000" />
       <workItem from="1473993354334" duration="14253000" />
-      <workItem from="1474113047373" duration="5265000" />
+      <workItem from="1474113047373" duration="5885000" />
+      <workItem from="1474127094655" duration="25000" />
     </task>
     <servers />
   </component>
@@ -862,20 +775,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99587000" />
+    <option name="totallyTimeSpent" value="100232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18611111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287827" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.407281" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.407281" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -884,6 +796,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297362" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287827" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1119,7 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,7 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,7 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,9 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1153,7 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1161,7 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,17 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/kaminari_config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1187,7 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1198,19 +1091,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/image.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admins/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1218,7 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,26 +1112,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs23/hash.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10920">
-          <caret line="728" column="8" selection-start-line="728" selection-start-column="8" selection-end-line="728" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.bundle/ruby/2.3.0/gems/actionview-5.0.0.1/lib/action_view/helpers/form_tag_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="445" column="86" selection-start-line="445" selection-start-column="86" selection-end-line="445" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/production.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58485">
-          <caret line="4624" column="0" selection-start-line="4624" selection-start-column="0" selection-end-line="4624" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,10 +1143,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/items/index.html.haml">
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs23/hash.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
+        <state relative-caret-position="10920">
+          <caret line="728" column="8" selection-start-line="728" selection-start-column="8" selection-end-line="728" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/image.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1288,6 +1163,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="101" column="99" selection-start-line="101" selection-start-column="99" selection-end-line="101" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/kaminari_config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/production.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75045">
+          <caret line="5003" column="0" selection-start-line="5003" selection-start-column="0" selection-end-line="5003" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/items/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding />
         </state>
       </provider>
