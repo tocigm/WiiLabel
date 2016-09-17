@@ -10,11 +10,15 @@
   .panel-body
     %table.table.table-hover
       %thead
-        %th
+        %th Title
+        %th No of images
+        %th Status
+
       %tbody
         - @items.each do |item|
           %tr
-            %td= item.title
+            %td= item.title.to_s.remove /[\[\]\"\"]/
+            %td= item.images.count
             %td= render_status item
             %td= link_to 'Show', item
             %td= link_to 'Edit', edit_item_path(item, params: {status: params[:status], category: params[:category]})
