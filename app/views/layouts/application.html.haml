@@ -20,11 +20,14 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    %h2 Menu
-    %ul
-      - @menu = menu
-      = select_tag 'category_select', options_from_collection_for_select(@menu, :id, :name) ,:prompt => "Category..."
-      -#- @menu.each do |m|
-      -#  %li= link_to m[:name], items_path(params: {category: m[:name], status: params[:status]})
-
-    = yield
+    .row
+      .col-md-3
+        %p
+          .lead  Category
+        .list-group
+          - @menu = menu
+          - @menu.each do |m|
+            =link_to m[:name], items_path(params: {category: m[:id]}), class: 'list-group-item'
+            -#= select_tag 'category_select', options_from_collection_for_select(@menu, :id, :name) ,:prompt => "Category..."
+      .col-md-9
+        = yield

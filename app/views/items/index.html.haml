@@ -1,12 +1,14 @@
 
 .panel.panel-default
   .panel-heading
-    %h3.panel-title Items list
+    %h3.panel-title
+      =@category
 
-    =link_to "All", items_path(params: {category: params[:category]})
-    =link_to "checked", items_path(params: {status: 'checked', category: params[:category]})
-    =link_to "unchecked", items_path(params: {status: 'unchecked', category: params[:category]})
-    =paginate @items
+    =link_to "All", items_path(params: {category: params[:category]}), class: 'btn btn-primary'
+    =link_to "checked", items_path(params: {status: 'checked', category: params[:category]}), class: 'btn btn-success'
+    =link_to "unchecked", items_path(params: {status: 'unchecked', category: params[:category]}), class: 'btn btn-warning'
+    .col-lg-1
+      =paginate @items
   .panel-body
     %table.table.table-hover
       %thead

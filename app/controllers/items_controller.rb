@@ -10,6 +10,13 @@ class ItemsController < ApplicationController
       @items = @items.page(1)
     end
 
+    if !params[:category].blank?
+      @category = Category.find(params[:category])[:name]
+    else
+      @category = 'All Categories'
+    end
+
+
     # render @items
   end
 
