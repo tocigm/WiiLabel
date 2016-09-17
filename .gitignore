@@ -16,3 +16,4 @@
 # Ignore Byebug command history file.
 .byebug_history
 vendor/assets/bower_components
+public/assest
