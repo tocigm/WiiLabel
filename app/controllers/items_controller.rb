@@ -47,7 +47,7 @@ class ItemsController < ApplicationController
 
   def next_item
     # binding.pry
-    @items = get_items_by_parameters(params: {category: params[:category]})
+    @items = get_items_by_parameters({category: params[:category]})
     @item = @items.where('_id':{'$gt': params[:id]}).order_by(_id: 'asc').limit(1).first
     # respond_to do |format|
     #   format.html {render :edit}
@@ -61,7 +61,7 @@ class ItemsController < ApplicationController
   end
 
   def prev_item
-    @items = get_items_by_parameters(params: {category: params[:category]})
+    @items = get_items_by_parameters({category: params[:category]})
     @item = @items.where('_id':{'$lt': params[:id]}).order_by(_id: 'desc').limit(1).first
     if !@item.blank?
       redirect_to proc { edit_item_path(@item, params: {category: params[:category]})} #, status: params[:status]
@@ -85,7 +85,7 @@ class ItemsController < ApplicationController
       end
       @category = Category.find_by(name: params[:item][:category].to_s.remove(/[\[\]\"\"]/))
       if @item.update(status: "checked")
-        @items = get_items_by_parameters(params: {category: @category.id})  #status: params[:item][:status]
+        @items = get_items_by_parameters({category: @category.id})  #status: params[:item][:status]
         @next_item = @items.where('_id':{'$gt': @item.id}).order_by(_id: 'asc').limit(1).first
         format.html{ redirect_to proc { edit_item_path(@next_item, params: {category: @category.id})}} #, status: params[:item][:status]
       end
