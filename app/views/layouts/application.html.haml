@@ -21,6 +21,8 @@
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
     .row
+      .col-md-9
+        = yield
       .col-md-3
         %p
           .lead  Category
@@ -29,5 +31,3 @@
           - @menu.each do |m|
             =link_to m[:name], items_path(params: {category: m[:id]}), class: 'list-group-item'
             -#= select_tag 'category_select', options_from_collection_for_select(@menu, :id, :name) ,:prompt => "Category..."
-      .col-md-9
-        = yield
