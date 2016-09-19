@@ -125,7 +125,7 @@ class ItemsController < ApplicationController
   end
 
   def item_params
-    params.require(:item).permit(:status, images_attributes: [:status])
+    params.require(:item).permit(:status, :category, images_attributes: [:status])
   end
 
   # def render_status
