@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b4ed7d97-5d45-49d0-9cff-a62dd0417fcc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/items_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/items_controller.rb" />
     </list>
     <ignored path="WiiLabel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -584,7 +583,7 @@
       <workItem from="1474113047373" duration="5885000" />
       <workItem from="1474127094655" duration="1308000" />
       <workItem from="1474222436611" duration="1017000" />
-      <workItem from="1474241638400" duration="649000" />
+      <workItem from="1474241638400" duration="775000" />
     </task>
     <servers />
   </component>
@@ -597,7 +596,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103181000" />
+    <option name="totallyTimeSpent" value="103307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />

@@ -96,7 +96,7 @@ class ItemsController < ApplicationController
     respond_to do |format|
       @category = Category.find_by(name: @item.category.to_s.remove(/[\[\]\"\"]/))
       if @item.update(status: "deleted")
-        @items = get_items_by_parameters(params: {category: @category.id})  #status: params[:item][:status]
+        @items = get_items_by_parameters({category: @category.id})  #status: params[:item][:status]
         @next_item = @items.where('_id':{'$gt': @item.id}).order_by(_id: 'asc').limit(1).first
 
         format.html{ redirect_to proc { edit_item_path(@next_item, params: {category:  @category.id})}}
