@@ -36,7 +36,7 @@
                 = f.hidden_field :status, value: @item.status
                 = fi.collection_radio_buttons :status, [[1, 'Ok'], [2, 'Archive'], [3,'Delete']], :first, :last do |b|
                   = b.label { b.radio_button + b.text }
-          = f.submit 'Save', class: 'btn btn-success', params: params
+          = f.submit 'Save', class: 'btn btn-success', params: {category: @category}
           = link_to 'Delete', @item, method: :delete , data: { confirm: 'Are u sure?'},  class: 'btn btn-danger'
 
 

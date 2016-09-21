@@ -117,6 +117,9 @@ class ItemsController < ApplicationController
         i+=1
       end
     end
+    @category = params[:category]
+    @status = params[:status]
+	
 
   end
 
