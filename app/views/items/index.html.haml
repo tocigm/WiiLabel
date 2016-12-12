@@ -19,7 +19,7 @@
       %tbody
         - @items.each do |item|
           %tr
-            %td= item.title.to_s.remove /[\[\]\"\"]/
+            %td= item.name.to_s.remove /[\[\]\"\"]/
             %td= item.images.count
             %td= render_status item
             -#%td= link_to 'Show', item

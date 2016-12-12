@@ -15,7 +15,7 @@
       .page-header
       .form-elements
         = simple_form_for @item, method: :put do |f|
-          %h3= @item.title.to_s.remove /[\[\]\"\"]/
+          %h3= @item.name.to_s.remove /[\[\]\"\"]/
           .text-danger
             %strong Status:
             =@item.status
